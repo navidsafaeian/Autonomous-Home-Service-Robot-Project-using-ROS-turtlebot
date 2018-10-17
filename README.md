@@ -21,17 +21,17 @@ The goal of this project is to program a Home Service Robot than can autonomousl
 
 #### The following ROS packages will be using in this project:
 
-* **gmapping**: With the `gmapping_demo.launch` file, you can easily perform SLAM and build a map of the environment with a robot equipped with laser range finder sensors or RGB-D cameras.
-- https://github.com/ros-perception/slam_gmapping.git
+* **gmapping**: With the `gmapping_demo.launch` file, you can easily perform SLAM and build a map of the environment with a robot equipped with laser range finder sensors or RGB-D cameras.<br>
+(https://github.com/ros-perception/slam_gmapping.git)
 
-* **turtlebot_teleop**: With the `keyboard_teleop.launch` file, you can manually control a robot using keyboard commands.
-- https://github.com/turtlebot/turtlebot.git
+* **turtlebot_teleop**: With the `keyboard_teleop.launch` file, you can manually control a robot using keyboard commands.<br>
+(https://github.com/turtlebot/turtlebot.git)
 
-* **turtlebot_rviz_launchers**: With the `view_navigation.launch` file, you can load a preconfigured rviz workspace. You’ll save a lot of time by launching this file, because it will automatically load the robot model, trajectories, and map for you.
-- https://github.com/turtlebot/turtlebot_interactions.git
+* **turtlebot_rviz_launchers**: With the `view_navigation.launch` file, you can load a preconfigured rviz workspace. You’ll save a lot of time by launching this file, because it will automatically load the robot model, trajectories, and map for you.<br>
+(https://github.com/turtlebot/turtlebot_interactions.git)
 
-* **turtlebot_gazebo**: With the `turtlebot_world.launch` you can deploy a turtlebot in a gazebo environment by linking the world file to it.
-- https://github.com/turtlebot/turtlebot_simulator.git
+* **turtlebot_gazebo**: With the `turtlebot_world.launch` you can deploy a turtlebot in a gazebo environment by linking the world file to it.<br>
+(https://github.com/turtlebot/turtlebot_simulator.git)
 
 #### How to use this repository
 first change to the workspace directory
